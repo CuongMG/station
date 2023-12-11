@@ -1,0 +1,18 @@
+[1/12] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D D:\esp\station\build\bootloader\esp-idf\esptool_py && D:\esp\esp_idf\python_env\idf5.0_py3.11_env\Scripts\python.exe D:/esp/Espressif/frameworks/esp-idf-v5.0.2/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 D:/esp/station/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6710 bytes. 0x8f0 bytes (8%) free.
+[2/10] Building C object esp-idf/ws2812b/CMakeFiles/__idf_ws2812b.dir/ws2812b.c.obj
+[3/10] Linking C static library esp-idf\ws2812b\libws2812b.a
+[4/10] Linking C static library esp-idf\main\libmain.a
+[5/10] Generating ld/sections.ld
+[6/10] Building ASM object CMakeFiles/wifi_station.elf.dir/index.html.S.obj
+[7/10] Building C object CMakeFiles/wifi_station.elf.dir/project_elf_src_esp32.c.obj
+[8/10] Linking CXX executable wifi_station.elf
+[9/10] Generating binary image from built executable
+esptool.py v4.5.1
+Creating esp32 image...
+Merged 25 ELF sections
+Successfully created esp32 image.
+Generated D:/esp/station/build/wifi_station.bin
+[10/10] cmd.exe /C "cd /D D:\esp\station\build\esp-idf\esptool_py && D:\esp\esp_idf\python_env\idf5.0_py3.11_env\Scripts\python.exe D:/esp/Espressif/frameworks/esp-idf-v5.0.2/components/partition_table/check_sizes.py --offset 0x8000 partition --type app D:/esp/station/build/partition_table/partition-table.bin D:/esp/station/build/wifi_station.bin"
+wifi_station.bin binary size 0xc0aa0 bytes. Smallest app partition is 0x100000 bytes. 0x3f560 bytes (25%) free.

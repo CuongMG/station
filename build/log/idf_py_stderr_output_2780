@@ -1,0 +1,34 @@
+fatal: detected dubious ownership in repository at 'D:/esp/Espressif/frameworks/esp-idf-v5.0.2'
+'D:/esp/Espressif/frameworks/esp-idf-v5.0.2/.git' is owned by:
+	'S-1-5-32-544'
+but the current user is:
+	'S-1-5-21-3206365353-760775048-727138610-1001'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory D:/esp/Espressif/frameworks/esp-idf-v5.0.2
+fatal: detected dubious ownership in repository at 'D:/esp/Espressif/frameworks/esp-idf-v5.0.2'
+'D:/esp/Espressif/frameworks/esp-idf-v5.0.2/.git' is owned by:
+	'S-1-5-32-544'
+but the current user is:
+	'S-1-5-21-3206365353-760775048-727138610-1001'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory D:/esp/Espressif/frameworks/esp-idf-v5.0.2
+fatal: detected dubious ownership in repository at 'D:/esp/Espressif/frameworks/esp-idf-v5.0.2/components/openthread/openthread'
+'D:/esp/Espressif/frameworks/esp-idf-v5.0.2/components/openthread/openthread/.git' is owned by:
+	'S-1-5-32-544'
+but the current user is:
+	'S-1-5-21-3206365353-760775048-727138610-1001'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory D:/esp/Espressif/frameworks/esp-idf-v5.0.2/components/openthread/openthread
+CMake Error at D:/esp/Espressif/frameworks/esp-idf-v5.0.2/tools/cmake/component.cmake:484 (add_library):
+  add_library cannot create target "__idf_main" because another target with
+  the same name already exists.  The existing target is a static library
+  created in source directory "D:/esp/station/main".  See documentation for
+  policy CMP0002 for more details.
+Call Stack (most recent call first):
+  main/CMakeLists.txt:4 (idf_component_register)
+
+
+ninja: error: rebuilding 'build.ninja': subcommand failed
